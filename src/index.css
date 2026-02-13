@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #030712;
+}
+/* Custom hover border effect like snip0015 */
+.snip0015 figcaption::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  bottom: 50%;
+  left: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: all 0.4s;
+  transition-delay: 0.6s;
+}
+
+.snip0015:hover figcaption::before {
+  top: 30px;
+  bottom: 30px;
+  opacity: 1;
+  transition-delay: 0s;
+}
