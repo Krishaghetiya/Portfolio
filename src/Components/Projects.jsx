@@ -1,8 +1,4 @@
 import React from "react";
-import propic1 from "../Assets/capture.PNG";
-import propic2 from "../Assets/3.PNG";
-import propic3 from "../Assets/2.PNG";
-import propic4 from "../assets/Product-1.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -81,7 +77,7 @@ const projects = [
     title: "E-Cart",
     subtitle: "Online Store with Cart & Authentication",
     tech: ["React", "Tailwind CSS", "Node.js"],
-    img: propic4,
+    img: "/Product-1.png",
     link: "https://e-cart-drab-ten.vercel.app/",
   },
   {
@@ -129,7 +125,7 @@ const projects = [
     title: "Recipe App",
     subtitle: "API Integrated React App",
     tech: ["React", "Axios", "REST API"],
-    img: propic1,
+    img: "/capture.png",   // ← add your image name here
     link: "https://react-api-k.netlify.app/",
   },
   {
@@ -137,7 +133,7 @@ const projects = [
     title: "Todo List",
     subtitle: "Theme Switcher & State Management",
     tech: ["React", "Context API", "Redux"],
-    img: propic2,
+    img: "/3.png",
     link: "https://todotheme.netlify.app/",
   },
   {
@@ -145,10 +141,11 @@ const projects = [
     title: "Quiz App",
     subtitle: "Interactive React Application",
     tech: ["React", "Hooks", "JSON"],
-    img: propic3,
+    img: "/2.png",
     link: "https://quiz-app-k.netlify.app/",
   },
 ];
+
 
 
 
