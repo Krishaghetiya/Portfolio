@@ -75,7 +75,7 @@ const [isOpen, setIsOpen] = useState(false);
             For me, development is not just about writing code—it's about solving problems, optimizing performance, and creating solutions that make an impact. I enjoy crafting websites and applications that are both functional and enjoyable to use.
           </p>
           <a
-            href="https://drive.google.com/file/d/1GGST5dcP8w9jHAVF_kTzrx7pM-z6G1vq/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LikXFVroV9hwPu8UrI0fBQ4Nwtz3NjzM/view?usp=sharing"
             className="inline-block text-[14px] bg-orange-500 hover:bg-[#121214] text-white font-semibold px-5 py-2 rounded-lg transition hover:border hover:border-gray-700"
           >
             Download CV <i class="fa-solid fa-download"></i>
